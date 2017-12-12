@@ -15,9 +15,113 @@
   Page content (gets injected into the template)
 -->
 {% block content %}
+<!-- my page header -->
+<div class="slds-page-header">
+<div class="slds-media">
+<div class="slds-media__figure">
+<span class="slds-icon_container slds-icon-standard-opportunity" title="Description of icon when needed">
+<svg class="slds-icon slds-page-header__icon" aria-hidden="true">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#opportunity" />
+</svg>
+</span>
+</div>
+<div class="slds-media__body">
+<h1 class="slds-page-header__title slds-truncate slds-align-middle" title="Rohde Corp - 80,000 Widgets">Rohde Corp - 80,000 Widgets</h1>
+<p class="slds-text-body_small slds-line-height_reset">Mark Jaeckal • Unlimited Customer • 11/13/15</p>
+</div>
+</div>
+</div>
 
 <h2 class="slds-text-align--center slds-text-heading--large slds-m-around--large">
   Second Session Change
 </h2>
 
+
+<div class="demo-only" style="min-height: 180px;">
+<div class="slds-rich-text-editor slds-form-element slds-grid slds-grid_vertical slds-nowrap">
+<div role="toolbar" class="slds-rich-text-editor__toolbar slds-shrink-none">
+<ul aria-label="Format text" class="slds-button-group-list">
+<li>
+<button class="slds-button slds-button_icon slds-button_icon-border-filled" tabindex="0" title="Provide description of action">
+<svg class="slds-button__icon" aria-hidden="true">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#bold" />
+</svg>
+<span class="slds-assistive-text">Bold</span>
+</button>
+</li>
+<li>
+<button class="slds-button slds-button_icon slds-button_icon-border-filled" tabindex="-1" title="Provide description of action">
+<svg class="slds-button__icon" aria-hidden="true">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#italic" />
+</svg>
+<span class="slds-assistive-text">Italic</span>
+</button>
+</li>
+<li>
+<button class="slds-button slds-button_icon slds-button_icon-border-filled" tabindex="-1" title="Provide description of action">
+<svg class="slds-button__icon" aria-hidden="true">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#underline" />
+</svg>
+<span class="slds-assistive-text">Underline</span>
+</button>
+</li>
+<li>
+<button class="slds-button slds-button_icon slds-button_icon-border-filled" tabindex="-1" title="Provide description of action">
+<svg class="slds-button__icon" aria-hidden="true">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#strikethrough" />
+</svg>
+<span class="slds-assistive-text">Strike Through</span>
+</button>
+</li>
+</ul>
+<ul aria-label="Format body" class="slds-button-group-list">
+<li>
+<button class="slds-button slds-button_icon slds-button_icon-border-filled" tabindex="-1" title="Provide description of action">
+<svg class="slds-button__icon" aria-hidden="true">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#richtextbulletedlist" />
+</svg>
+<span class="slds-assistive-text">Bulleted List</span>
+</button>
+</li>
+<li>
+<button class="slds-button slds-button_icon slds-button_icon-border-filled" tabindex="-1" title="Provide description of action">
+<svg class="slds-button__icon" aria-hidden="true">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#richtextnumberedlist" />
+</svg>
+<span class="slds-assistive-text">Numbered List</span>
+</button>
+</li>
+<li>
+<button class="slds-button slds-button_icon slds-button_icon-border-filled" tabindex="-1" title="Provide description of action">
+<svg class="slds-button__icon" aria-hidden="true">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#richtextindent" />
+</svg>
+<span class="slds-assistive-text">Indent</span>
+</button>
+</li>
+<li>
+<button class="slds-button slds-button_icon slds-button_icon-border-filled" tabindex="-1" title="Provide description of action">
+<svg class="slds-button__icon" aria-hidden="true">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#richtextoutdent" />
+</svg>
+<span class="slds-assistive-text">Outdent</span>
+</button>
+</li>
+</ul>
+<ul aria-label="Remove Formatting" class="slds-button-group-list">
+<li>
+<button class="slds-button slds-button_icon slds-button_icon-border-filled" tabindex="-1" title="Provide description of action">
+<svg class="slds-button__icon" aria-hidden="true">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#remove_formatting" />
+</svg>
+<span class="slds-assistive-text">Remove Formatting</span>
+</button>
+</li>
+</ul>
+</div>
+<div class="slds-rich-text-editor__textarea slds-grid">
+<div aria-label="Compose text" contenteditable="true" class="slds-rich-text-area__content slds-text-color_weak slds-grow">Compose text...</div>
+</div>
+</div>
+</div>
 {% endblock %}
