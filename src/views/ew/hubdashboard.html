@@ -30,10 +30,33 @@
 </div>
 </div>
 <!--
-  Data table
+  Data table component inside a card component
 -->
 <div class="slds-p-top_x-large"></div>
-<table class="slds-table slds-table_bordered slds-table_cell-buffer">
+<div class="slds-m-left_xx-large">
+  <div class="slds-m-right_xx-large">
+<article class="slds-card">
+  <div class="slds-card__header slds-grid">
+    <header class="slds-media slds-media_center slds-has-flexi-truncate">
+      <div class="slds-media__figure">
+        <span class="slds-icon_container slds-icon-standard-contact" title="description of icon when needed">
+          <svg class="slds-icon slds-icon_small" aria-hidden="true">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#contact" />
+          </svg>
+        </span>
+      </div>
+      <div class="slds-media__body">
+        <h2>
+          <a href="javascript:void(0);" class="slds-card__header-link slds-truncate" title="[object Object]">
+            <span class="slds-text-heading_small">Your Recent Quotes</span>
+          </a>
+        </h2>
+      </div>
+    </header>
+  
+  </div>
+  <footer class="slds-card__footer">
+    <table class="slds-table slds-table_bordered slds-table_cell-buffer">
   <thead>
     <tr class="slds-text-title_caps">
       <th scope="col">
@@ -89,6 +112,8 @@
     </tr>
   </tbody>
 </table>
+  </footer>
+</article>
 <!--
   feed
 -->
