@@ -19,7 +19,7 @@
   heading
 -->
 <h2 class="slds-text-align--center slds-text-heading--medium slds-m-around--large">
-  Quotes
+  Clients
 </h2>
 <!--
   lookup
@@ -30,7 +30,7 @@
     <div class="slds-combobox_container slds-has-inline-listbox">
       <div class="slds-combobox slds-dropdown-trigger slds-dropdown-trigger_click slds-combobox-lookup" aria-expanded="false" aria-haspopup="listbox" role="combobox">
         <div class="slds-combobox__form-element slds-input-has-icon slds-input-has-icon_right" role="none">
-          <input type="text" class="slds-input slds-combobox__input" id="combobox-unique-id" aria-autocomplete="list" aria-controls="listbox-unique-id" autocomplete="off" role="textbox" placeholder="Search Quotes"/>
+          <input type="text" class="slds-input slds-combobox__input" id="combobox-unique-id" aria-autocomplete="list" aria-controls="listbox-unique-id" autocomplete="off" role="textbox" placeholder="Search Clients"/>
           <span class="slds-icon_container slds-icon-utility-search slds-input__icon slds-input__icon_right">
             <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
               <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#search" />
@@ -39,7 +39,7 @@
         </div>
         <div id="listbox-unique-id" role="listbox">
           <ul class="slds-listbox slds-listbox_vertical slds-dropdown slds-dropdown_fluid" role="presentation">
-            <li role="presentation" class="slds-listbox__item">
+            <li role="presentation" class="slds-listbox__item"></li>
               <span id="listbox-option-unique-id-01" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
                 <span class="slds-media__figure">
                   <span class="slds-icon_container slds-icon-standard-account" title="Description of icon when needed">
@@ -85,7 +85,7 @@
   <ul class="slds-listbox slds-listbox_horizontal" role="listbox" aria-label="Selected Options:" aria-orientation="horizontal">
     <li role="presentation">
       <span class="slds-pill" role="option" tabindex="0" aria-selected="true">
-        <span class="slds-pill__label" title="Full pill label verbiage mirrored here">Converted</span>
+        <span class="slds-pill__label" title="Full pill label verbiage mirrored here">Live Customers</span>
         <span class="slds-icon_container slds-pill__remove" title="Remove">
           <svg class="slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#close" />
@@ -96,7 +96,7 @@
     </li>
     <li role="presentation">
       <span class="slds-pill" role="option" aria-selected="true">
-        <span class="slds-pill__label" title="Full pill label verbiage mirrored here">Pending</span>
+        <span class="slds-pill__label" title="Full pill label verbiage mirrored here">My Customers</span>
         <span class="slds-icon_container slds-pill__remove" title="Remove">
           <svg class="slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#close" />
@@ -107,40 +107,7 @@
     </li>
     <li role="presentation">
       <span class="slds-pill" role="option" aria-selected="true">
-        <span class="slds-pill__label" title="Full pill label verbiage mirrored here">NTU</span>
-        <span class="slds-icon_container slds-pill__remove" title="Remove">
-          <svg class="slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
-            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#close" />
-          </svg>
-          <span class="slds-assistive-text">Press delete or backspace to remove</span>
-        </span>
-      </span>
-    </li>
-        <li role="presentation">
-      <span class="slds-pill" role="option" aria-selected="true">
-        <span class="slds-pill__label" title="Full pill label verbiage mirrored here">Declined</span>
-        <span class="slds-icon_container slds-pill__remove" title="Remove">
-          <svg class="slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
-            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#close" />
-          </svg>
-          <span class="slds-assistive-text">Press delete or backspace to remove</span>
-        </span>
-      </span>
-    </li>
-        <li role="presentation">
-      <span class="slds-pill" role="option" aria-selected="true">
-        <span class="slds-pill__label" title="Full pill label verbiage mirrored here">This week</span>
-        <span class="slds-icon_container slds-pill__remove" title="Remove">
-          <svg class="slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
-            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#close" />
-          </svg>
-          <span class="slds-assistive-text">Press delete or backspace to remove</span>
-        </span>
-      </span>
-    </li>
-        <li role="presentation">
-      <span class="slds-pill" role="option" aria-selected="true">
-        <span class="slds-pill__label" title="Full pill label verbiage mirrored here">This month</span>
+        <span class="slds-pill__label" title="Full pill label verbiage mirrored here">NTU Customers</span>
         <span class="slds-icon_container slds-pill__remove" title="Remove">
           <svg class="slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#close" />
@@ -169,7 +136,7 @@
       <div class="slds-media__body">
         <h2>
           <a href="javascript:void(0);" class="slds-card__header-link slds-truncate" title="[object Object]">
-            <span class="slds-text-heading_small">Quotes</span>
+            <span class="slds-text-heading_small">Clients</span>
           </a>
         </h2>
       </div>
@@ -219,7 +186,7 @@
     </tr>
     <tr>
       <th scope="row" data-label="Opportunity Name">
-        <div class="slds-truncate" title="Juliette Dorien"><a href="javascript:void(0);">Juliette Dorien</a></div>
+        <div class="slds-truncate" title="Juliette Dorien"><a href="/ew/clientpage.html"</a>Juliette Dorien</div>
       </th>
       <td data-label="Account Name">
         <div class="slds-truncate" title="EW10033Q"><a href="javascript:void(0);">EW10033Q</a></div>

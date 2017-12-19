@@ -14,10 +14,43 @@
 <!--
   Page content (gets injected into the template)
 -->
-{<!--
+{% block content %}
+<!--
+  spacing
+-->
+<div class="slds-p-top_xx-large"></div>
+<!--
   heading
 -->
-<h2 class="slds-text-align--center slds-text-heading--medium slds-m-around--large">
+<h2 class="slds-text-align--center slds-text-heading--medium slds-m-around--medium">
  We can't bind this risk 💔
 </h2>
+<div class="slds-p-top_large"></div>
+<div class="slds-align_absolute-center">We look forward to working with you on other risks,</div>
+<div class="slds-align_absolute-center">below are the reasons for our decline.</div>
+<!--
+  decline reason pills
+-->
+<div class="slds-align_absolute-center">
+<div class="slds-p-vertical_large">
+<div class="slds-pill_container" style="border: none">
+  <ul class="slds-listbox slds-listbox_horizontal" role="listbox" aria-label="Selected Options:" aria-orientation="horizontal">
+    <li role="presentation">
+      <span class="slds-pill" role="option" tabindex="0" aria-selected="true">
+        <span class="slds-pill__label" title="Full pill label verbiage mirrored here">Flood Risk</span>
+    </li>
+    <li role="presentation">
+      <span class="slds-pill" role="option" aria-selected="true">
+        <span class="slds-pill__label" title="Full pill label verbiage mirrored here">State of Repair</span>
+    </li>
+</div>
+</div>
+</div>
+
+<div class="slds-align_absolute-center">
+  <button class="slds-button">Back to the Hub</button>
+</div>
+<div class="slds-align_absolute-center">
+  <button class="slds-button">Oops! Back to Quote</button>
+</div>
 {% endblock %}

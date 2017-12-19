@@ -41,3 +41,22 @@ $static-font-path: '/assets/fonts/webfonts';
   left: 0;
 }
 
+.slds-input, .slds-has-inline-listbox, .slds-has-object-switcher {
+  border-radius: 25px;
+}
+
+.slds-listbox_horizontal li{
+  margin: 5px;  
+}
+
+.slds-pill{
+    border-radius: 25px;
+    padding: 0 10px;
+}
+
+.slds-button_brand{
+    border-radius: 15px;
+    background-color:#B8E4FA;
+    border: #B8E4FA;
+    color: #313C4B;
+}
