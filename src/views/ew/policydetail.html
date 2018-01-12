@@ -11,75 +11,46 @@
   Heading, client name
 -->
 <h2 class="slds-text-align--center slds-text-heading--medium slds-m-around--large">
-  Juliette Dorien
+  EW10047Q
 </h2>
 
 <!--
-  Account Details, DataTable
--->
-<div class="slds-p-around_xx-large">
-<div class="slds-m-horizontal_xx-large">
-<table class="slds-table slds-table_bordered slds-table_cell-buffer">
- <thead>
-    <tr class="slds-text-title_caps"
-        <div class="slds truncate" title="Account Details">Account Details</div>
- </thead>
- <thead>
-    <tr class="slds-text-title_caps">
-      <th scope="col">
-        <div class="slds-truncate" title="Address">Address</div>
-      </th>
-      <th scope="col">
-        <div class="slds-truncate" title="Email">Email</div>
-      </th>
-      <th scope="col">
-        <div class="slds-truncate" title="Mobile">Mobile</div>
-      </th>
-      <th scope="col">
-        <div class="slds-truncate" title=""></div>
-      </th>
-    </tr>
-  </thead>
-    <tr>
-      <td data-label="Address">
-        <div class="slds-truncate" title="14 Potters Lane, London, SW1 3BN">14 Potters Lane, London, SW1 3BN</div>
-      </td>
-      <td data-label="Email">
-        <div class="slds-truncate" title="jdorien@gmail.com"><a href="javascript:void(0);">jdorien@gmail.com</a></div>
-      </td>
-      <td data-label="Mobile">
-        <div class="slds-truncate" title="07467843374">07467843374</div>
-      </td>
-      <td data-label="Action">
-        <button class="slds-button_brand">Edit</button>
-      </td>
-    </tr>
-  </tbody>
-</table>
+  Buttons
+  -->
+<div class="slds-p-vertical_medium">
+<div class="slds-grid slds-grid_align-space">
+  <div>
+    <button class="slds-button_brand">EDIT</button>
+  </div>
+  <div>
+    <button class="slds-button_brand">NTU</button>
+  </div>
+  <div>
+    <button class="slds-button_brand">BIND</button>
+  </div>
+  <div>
+    <button class="slds-button_brand"; style="background-color:#313C4B; color:white">Email Documents</button>
+  </div>
 </div>
 </div>
-
 
 <!--
-  Quotes & Policies, DataTable
+  Quote Details, DataTable
 -->
 <div class="slds-p-around_xx-large">
 <div class="slds-m-horizontal_xx-large">
 <table class="slds-table slds-table_bordered slds-table_cell-buffer">
  <thead>
     <tr class="slds-text-title_caps"
-        <div class="slds truncate" title="Quotes & Policies">Quotes & Policies</div>
+        <div class="slds truncate" title="Account Details">Quote Details</div>
  </thead>
  <thead>
     <tr class="slds-text-title_caps">
       <th scope="col">
-        <div class="slds-truncate" title="Policy Holder">Policy Holder</div>
+        <div class="slds-truncate" title="Policyholder">Policyholder</div>
       </th>
       <th scope="col">
-        <div class="slds-truncate" title="Quote Date">Quote Date</div>
-      </th>
-      <th scope="col">
-        <div class="slds-truncate" title="Policy Number">Policy Number</div>
+        <div class="slds-truncate" title="Quote date">Quote date</div>
       </th>
       <th scope="col">
         <div class="slds-truncate" title="Status">Status</div>
@@ -93,39 +64,17 @@
     </tr>
   </thead>
     <tr>
-      <th scope="row" data-label="Policyholder">
+      <td data-label="Policyholder">
         <div class="slds-truncate" title="Juliette Dorien">Juliette Dorien</div>
-      </th>
-      <td data-label="Quote Date">
-        <div class="slds-truncate" title="14/4/18">11/2/18</div>
       </td>
-      <td data-label="Policy Number">
-        <div class="slds-truncate" title="EW10047Q"><a href="/ew/quotedetail.html"</a>EW10047Q</div>
+      <td data-label="Quote date">
+        <div class="slds-truncate" title="11/2/18">11/2/18</div>
       </td>
       <td data-label="Status">
-        <div class="slds-truncate" title="Quote Offered">Quote Offered</div>
+        <div class="slds-truncate" title="Quote offered">Quote offered</div>
+      </td>
       <td data-label="Premium">
         <div class="slds-truncate" title="£865">£865</div>
-      </td>
-      <td data-label="Action">
-         <div class="slds-p-top_x-small"><button class="slds-button_brand">Edit</button></div>
-         <div class="slds-p-top_x-small"><button class="slds-button_brand">Bind</button></div>
-      </td>
-    </tr>
-    <tr style="color: silver">
-      <th scope="row" data-label="Policyholder">
-        <div class="slds-truncate" title="Juliette Dorien">Juliette Dorien</div>
-      </th>
-      <td data-label="Quote Date">
-        <div class="slds-truncate" title="14/4/18">07/1/17</div>
-      </td>
-      <td data-label="Policy Number">
-        <div class="slds-truncate" title="EW10034Q"><a href="javascript:void(0);">EW10033Q</a></div>
-      </td>
-      <td data-label="Status">
-        <div class="slds-truncate" title="Quote Offered">NTU</div>
-      <td data-label="Premium">
-        <div class="slds-truncate" title="£900">£900</div>
       </td>
       <td data-label="action">
       </td>
@@ -135,6 +84,129 @@
 </div>
 </div>
 
+<!--
+  Selected Quote/Policy details (within a grid)
+  -->
+
+<div class="slds-grid slds-gutters">
+  <div class="slds-col">
+    <span><div class="demo-only" style="width: 40rem;">
+<div class="slds-p-around_xx-large">
+<div class="slds-m-horizontal_xx-large">
+
+  <article class="slds-tile">
+    <h3 class="slds-tile__title slds-truncate" title="Salesforce UX"><a href="javascript:void(0);">Broker information</a></h3>
+    <div class="slds-tile__detail">
+      <dl class="slds-list_horizontal slds-wrap">
+  
+        <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Inception date:">Inception date:</dt>
+        <dd class="slds-item_detail slds-truncate" title="Description for first label">--</dd>
+    
+        <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Renewal date:">Renewal date:</dt>
+        <dd class="slds-item_detail slds-truncate" title="Description for second label">--</dd>
+        
+        <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Comission:">Comission:</dt>
+        <dd class="slds-item_detail slds-truncate" title="Description for second label">25%</dd>
+        
+        <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Broker:">Broker:</dt>
+        <dd class="slds-item_detail slds-truncate" title="Description for second label">Barbara Broker</dd>
+        
+        <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Account handler:">Account handler:</dt>
+        <dd class="slds-item_detail slds-truncate" title="Description for second label">Brady Broker</dd>
+      </dl>
+    </div>
+  </article>
+</div>
+</div>
+</div></span>
+  </div>
+  <div class="slds-col">
+    <span>
+      <div class="demo-only" style="width: 40rem;">
+<div class="slds-p-around_xx-large">
+<div class="slds-m-horizontal_xx-large">
+
+  <article class="slds-tile">
+    <h3 class="slds-tile__title slds-truncate" title="Salesforce UX"><a href="javascript:void(0);">Further details</a></h3>
+    <div class="slds-tile__detail">
+      <dl class="slds-list_horizontal slds-wrap">
+  
+        <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Quote type">Quote type:</dt>
+        <dd class="slds-item_detail slds-truncate" title="Quote Type">Single property</dd>
+        
+        <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Occupancy type">Occupancy type:</dt>
+        <dd class="slds-item_detail slds-truncate" title="Occupancy Type">Main Residence</dd>
+        
+        <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Payment method">Payment method:</dt>
+        <dd class="slds-item_detail slds-truncate" title="Payment method">Direct debit</dd>
+    
+        <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Past claims index">Past claims index:</dt>
+        <dd class="slds-item_detail slds-truncate" title="Past claims index">2</dd>
+        
+        <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Safe required?">Safe required?</dt>
+        <dd class="slds-item_detail slds-truncate" title="Safe required">No</dd>
+        
+
+        
+      </dl>
+    </div>
+  </article>
+</div>
+</div>
+</div>
+
+    </span>
+  </div>
+  <div class="slds-col">
+    <span><div class="demo-only" style="width: 60rem;">
+<div class="slds-p-around_xx-large">
+<div class="slds-m-horizontal_xx-large">
+  <article class="slds-tile">
+    <h3 class="slds-tile__title slds-truncate" title="Salesforce UX"><a href="javascript:void(0);">Coverage</a></h3>
+    <div class="slds-tile__detail">
+      <dl class="slds-list_horizontal slds-wrap">
+  
+        <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Policy type">Policy type:</dt>
+        <dd class="slds-item_detail slds-truncate" title="Policy type">Buildings & Contents</dd>
+    
+        <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Buildings cover">Buildings cover:</dt>
+        <dd class="slds-item_detail slds-truncate" title="Buildings cover">£1m blanket</dd>
+        
+        <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Contents">Contents:</dt>
+        <dd class="slds-item_detail slds-truncate" title="Contents">Unlimited</dd>
+        
+        <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Jewellery and watches">Jewellery and watches:</dt>
+        <dd class="slds-item_detail slds-truncate" title="Jewellery">£18,000</dd>
+        
+        <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Art">Art:</dt>
+        <dd class="slds-item_detail slds-truncate" title="Art">£9,000</dd>
+        
+        <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Pedal Cycles">Pedal Cycles:</dt>
+        <dd class="slds-item_detail slds-truncate" title="Pedal Cycles">£0</dd>
+        
+        <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Specified items total value">Specified items total value:</dt>
+        <dd class="slds-item_detail slds-truncate" title="Specified items total value">£21,000</dd>
+      </dl>
+    </div>
+  </article>
+</div>
+</div>
+</div></span>
+  </div>
+</div>
+</div>
+</div> 
+</div>
+
+<div class="slds-button-group" role="group">
+  <div class="slds-p-around_xx-large">
+  <div class="slds-m-horizontal_xx-large">
+   <button class="slds-button slds-button_neutral">Property Data</button>
+   <button class="slds-button slds-button_neutral">Transaction History</button>
+   <button class="slds-button slds-button_neutral">Statement History</button>
+  </div>
+  </div>
+</div>
 
 </section>
 </li>
